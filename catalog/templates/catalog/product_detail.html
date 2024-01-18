@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% load custom_filters %}
+
+{% block title %}{{ product.name }} - Electronic Store{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{% mediapath product.product_image %}" class="img-fluid" alt="{{ product.product_name }}">
+            </div>
+            <div class="col-md-6">
+                <h1>{{ product.product_name }}</h1>
+                <p class="lead">{{ product.product_description }}</p>
+                <p>Price: ${{ product.product_sale_price }}</p>
+                
+                {% if current_version %}
+                    <p>Current Version: {{ current_version.version_number }} - {{ current_version.version_name }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

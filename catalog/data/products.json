@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone",
+        "description": "Experience cutting-edge technology with our high-end smartphone. Packed with advanced features, it's your gateway to the future of communication and innovation.",
+        "price": 599.99,
+        "image_url": "smartphone.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "description": "Boost your productivity and gaming experience with our powerful laptop. Engineered for performance, it's your reliable companion for work and play.",
+        "price": 1299.99,
+        "image_url": "laptop.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "description": "Immerse yourself in crystal-clear audio with our noise-canceling headphones. Whether you're on a journey or at home, enjoy the ultimate sound experience.",
+        "price": 149.99,
+        "image_url": "headphones.jpg"
+    }
+]
